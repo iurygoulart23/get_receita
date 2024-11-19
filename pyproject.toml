@@ -1,0 +1,11 @@
+[project]
+name = "get-receita"
+version = "0.1.0"
+description = "Codigo para baixar as bases da receita federal, corrigindo instabilidades"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=24.10.0",
+    "pyspark>=3.5.3",
+    "pyzipper",
+]
